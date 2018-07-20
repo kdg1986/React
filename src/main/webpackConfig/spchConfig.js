@@ -3,11 +3,11 @@ const path = require('path');
 
 const spchConfig = {
         entry: {
-            spch_preconMember : './src/main/react/spch/root/spch_preconMemberRoot.jsx' //판매원 관리 
-        	,spch_preconReqStatus: './src/main/react/spch/root/spch_preconReqStatusRoot.jsx' //다단계 신청 일괄관리
-       		,spch_preconReq: './src/main/react/spch/root/spch_preconReqRoot.jsx' //다단계/방문판매원 사전승낙 통합관리
-   			,spch_PyramidCorp: './src/main/react/spch/root/spch_PyramidCorpRoot.jsx' //방문 판매원 회사 관리
- 			,spch_PyramidVisit: './src/main/react/spch/root/spch_PyramidVisitRoot.jsx' //방문 판매원 대상자 관리            
+            spch_preconMember : './src/main/react/spch/root/spch_preconMemberRoot.jsx'
+        	,spch_preconReqStatus: './src/main/react/spch/root/spch_preconReqStatusRoot.jsx'
+       		,spch_preconReq: './src/main/react/spch/root/spch_preconReqRoot.jsx' 
+   			,spch_PyramidCorp: './src/main/react/spch/root/spch_PyramidCorpRoot.jsx'
+ 			,spch_PyramidVisit: './src/main/react/spch/root/spch_PyramidVisitRoot.jsx'
         },
         output: {
             path: './src/main/resources/static/built/spch/',
