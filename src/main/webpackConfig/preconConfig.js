@@ -3,10 +3,10 @@ const path = require('path');
 
 const preconConfig = {
         entry: {
-            precon_preconReq : './src/main/react/precon/root/precon_preconReqRoot.jsx' //사전승낙 신청관리
-        	,precon_preconCloseDownInfoPriceStats :  './src/main/react/precon/root/precon_preconCloseDownInfoPriceStatsRoot.jsx' //휴폐업 판매점 정보 정산 보고서
-        	,precon_preconCloseDown : './src/main/react/precon/root/precon_preconCloseDownRoot.jsx' //휴폐업 이력 조회
-       		,precon_review	: './src/main/react/precon/root/precon_reviewRoot.jsx' //휴폐업 이력 조회
+            precon_preconReq : './src/main/react/precon/root/precon_preconReqRoot.jsx'
+        	,precon_preconCloseDownInfoPriceStats :  './src/main/react/precon/root/precon_preconCloseDownInfoPriceStatsRoot.jsx' 
+        	,precon_preconCloseDown : './src/main/react/precon/root/precon_preconCloseDownRoot.jsx' 
+       		,precon_review	: './src/main/react/precon/root/precon_reviewRoot.jsx' 
         },
         output: {
             path: './src/main/resources/static/built/precon/',
